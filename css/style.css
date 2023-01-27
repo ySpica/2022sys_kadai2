@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "ヒラギノ角ゴ ProN", Meiryo, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+img {
+    display: block;
+}
+
+h2 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-decoration: underline;
+}
+
+form {
+	padding-bottom: 25px;
+}
