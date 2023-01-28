@@ -1,0 +1,15 @@
+/*画面幅が480pxまでの時*/
+body {
+  background-color: azure;
+  font-size: 24px;
+}
+dt {
+  font-size: 22px;
+  text-decoration: underline;
+}
+dd {
+  font-size: 18px;
+}
+.field {
+  margin-top: 50px;
+}
