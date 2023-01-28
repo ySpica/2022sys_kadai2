@@ -16,7 +16,9 @@ $select_sth->execute([
 ]);
 $user = $select_sth->fetch();
 ?>
-
+<head>
+  <link rel="stylesheet" href="../css/responsive.css" media="max-width: 480px">
+</head>
 <style>
 body {
   background-color: azure;
