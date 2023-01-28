@@ -17,6 +17,22 @@ $select_sth->execute([
 $user = $select_sth->fetch();
 ?>
 
+<style>
+body {
+  background-color: azure;
+}
+dt {
+  font-size: 18px;
+  text-decoration: underline;
+}
+dd {
+  font-size: 14px;
+}
+.field {
+  margin-top: 40px;
+}
+</style>
+
 <a href="/timeline.php">タイムラインはこちら</a>
 
 <h1>設定画面</h1>
@@ -33,7 +49,7 @@ $user = $select_sth->fetch();
   <dd><?= htmlspecialchars($user['name']) ?></dd>
 </dl>
 
-<ul>
+<ul class="field">
   <li><a href="./name.php">名前設定</a></li>
   <li><a href="./icon.php">アイコン設定</a></li>
   <li><a href="./introduction.php">自己紹介文設定</a></li>
