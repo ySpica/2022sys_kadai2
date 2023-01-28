@@ -25,7 +25,7 @@ CREATE TABLE `users` (
 );
 ```
 
-3. <a href="http://18.212.98.243/timeline.php">http://18.212.98.243/timeline.php</a>
+3. <a href="http://54.82.89.25/timeline.php">http://54.82.89.25/timeline.php</a>
 
 4. Login<br>
 ```
